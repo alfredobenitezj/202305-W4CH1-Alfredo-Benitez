@@ -3,14 +3,16 @@ type PropsType = {
   user: string;
 };
 
-export function Header() {
-  const title = "The Pointing gentlement";
+export function Header({ label, user }: PropsType) {
+  const title = "";
 
   return (
- <>
+    <>
       <header className="header">
-      
+        <h1>{label}</h1>
+      </header>
+      <p>{user}</p>
       <p>{title.toLocaleUpperCase()}</p>
     </>
-  )
-  }
+  );
+}
