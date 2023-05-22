@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-empty-function
-export type gentlemendata = {
+export type gentlemenData = {
   name: string;
   status: string;
   profession: string;
